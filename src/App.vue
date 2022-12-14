@@ -1,14 +1,24 @@
 <script setup>
 import Navbar from './components/Navbar.vue'
 import Content from './components/Content.vue'
+import Sidebar from './components/Sidebar.vue'
+import Statusbar from './components/Statusbar.vue'
+import TopSection from './components/TopSection.vue'
 </script>
 
 <template>
   <main>
     <div class="app">
+      
+      <Statusbar/>
+
+      <TopSection/>
+
       <Content/>
 
       <Navbar/>
+
+      <Sidebar/>
     </div>
   </main>
 </template>
@@ -28,6 +38,8 @@ import Content from './components/Content.vue'
   .app {
     width: 393px;
     height: 100%;
+
+    position: relative;
 
     background-color: black;
   }
