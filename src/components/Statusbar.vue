@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <template>  
     <div class="statusbar">
         <div class="statusbar__time">
@@ -27,10 +24,16 @@
 
 <style lang="scss">
     .statusbar{
+        width: 100%;
+
         display: flex;
         justify-content: space-between;        
         height: 48px;
         padding: 18px 26px 14px 27px;
+
+        position: absolute;
+        top: 0;
+        left: 0;
         
         &__time {
             width: 80px;

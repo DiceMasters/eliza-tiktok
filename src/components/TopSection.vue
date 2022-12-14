@@ -27,10 +27,16 @@ import SearchIcon from './Icons/SearchIcon.vue'
 
 <style lang="scss">
     .top {
+        width: 100%;
+
         display: flex;
         justify-content: space-between;
 
         padding: 0px 14px;
+
+        position: absolute;
+        top: 56px;
+        left: 0;
 
         &__frame {
             display: flex;

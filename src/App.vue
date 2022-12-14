@@ -9,7 +9,6 @@ import TopSection from './components/TopSection.vue'
 <template>
   <main>
     <div class="app">
-      
       <Statusbar/>
 
       <TopSection/>
